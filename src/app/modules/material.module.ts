@@ -22,4 +22,4 @@ const materialModules=[
     materialModules
   ]
 })
-export class MatModule { }
+export class MaterialModule { }
