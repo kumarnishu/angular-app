@@ -7,6 +7,7 @@ import { MatModule } from './modules/mat.module';
 import { MainComponent } from './pages/main/main.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatModule
+    MatModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
