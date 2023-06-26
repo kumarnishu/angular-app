@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SignupFormComponent } from 'src/app/components/forms/auth/signup-form/signup-form.component';
 
 
 @Component({
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss'],
   standalone:true,
-  imports:[]
+  imports:[SignupFormComponent]
 })
 export class MainComponent {
 
